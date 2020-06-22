@@ -62,7 +62,7 @@ h1 {
 }
 
 .hero-image {
-    background: url("/images/main_bg.jpg") no-repeat center center fixed;
+    background: url(/images/main_bg_test.jpg) no-repeat center center fixed;
     box-sizing: border-box;
     background-color: #cccccc;
     height: 800px;
