@@ -1,0 +1,297 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+/* Navbar */
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.navbar {
+    background: #283d69d5;
+    margin: 0 auto;
+    padding: 13px 0 7px 0;
+    height: 43px;
+}
+
+.navbar-fixed-top {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.navbar a {
+    color: #ccc;
+    text-align: center;
+    padding: 6px 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    /* background-color: antiquewhite; */
+    color: #807956
+}
+
+
+/* Hero Section */
+
+h1 {
+    font-size: 70px;
+    margin-bottom: 25px;
+    font-family: 'Cinzel', serif;
+    color: #283d69f2;
+}
+
+.hero-image {
+    background: url("/images/main_bg.jpg") no-repeat center center fixed;
+    box-sizing: border-box;
+    background-color: #cccccc;
+    height: 800px;
+    background-size: cover;
+    position: relative;
+    padding-top: 100px;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.join-me-btn {
+    background-color: #7088bdb7;
+    border: none;
+    border-radius: 45%;
+    color: white;
+    padding: 19px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 14px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.join-me-btn:hover {
+    font-weight: bold;
+    color: #7088bdb7;
+    background-color: #d0da7aea;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.content {
+    width: 85%;
+    margin: 0 auto;
+}
+
+hr {
+    border: 1px solid #807956;
+    margin: 10px 25px 40px 25px;
+}
+
+
+/* About */
+
+#about {
+    margin: 25px 0;
+}
+
+
+/* Photos */
+
+.pic-container {
+    margin: 25px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+img {
+    width: 450px;
+    height: 300px;
+    border: 1px solid black;
+    margin: 10px;
+    transition: all 1.05s;
+}
+
+img:hover {
+    transform: scale(1.2);
+}
+
+
+/* Join Me */
+
+.contact-form {
+    width: 85%;
+    max-width: 600px;
+    background: #f1f1f1;
+    position: relative;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, 5%);
+    padding: 30px 40px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 0 20px #000000b3;
+    /* font-family: 'Raleway', sans-serif;
+} */
+}
+
+.contact-form h2 {
+    margin-top: 0;
+    font-weight: 200;
+}
+
+.contact-form h3 {
+    color: #283d69f2;
+    margin-top: 0;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.contact-form span {
+    font-family: 'Cinzel', serif;
+    font-weight: 700;
+}
+
+.txtb {
+    border: 1px solid gray;
+    margin: 8px 0;
+    padding: 12px 18px;
+    border-radius: 8px;
+}
+
+.txtb label {
+    display: block;
+    text-align: left;
+    color: #333;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.txtb input,
+.txtb textarea {
+    width: 100%;
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 18px;
+    margin-top: 6px;
+}
+
+.btn {
+    display: inline-block;
+    background: #283d69f2;
+    padding: 14px 0;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 8px;
+    width: 100%;
+}
+
+.btn:hover {
+    background: #0ca4f7;
+    color: #333;
+    font-weight: bolder;
+    border: 1px solid #333;
+}
+
+
+/* Footer */
+
+.page-footer {
+    background: #0ca4f7;
+    margin-top: 75px;
+    padding-top: 25px;
+}
+
+.wrapper {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.footer-col {
+    width: 40%;
+    float: left;
+}
+
+.footer-col-right {
+    float: right;
+    width: 30%;
+}
+
+.page-footer h3 {
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.footer-hr {
+    margin-left: 0;
+    /* width: 99%; */
+    border: 1px solid #292929;
+    margin: 5px 0;
+}
+
+.credits {
+    margin-top: 30px;
+}
+
+.social {
+    float: right;
+}
+
+.social li {
+    display: inline-block;
+}
+
+.social a {
+    display: block;
+    margin: 1px 15px 15px 15px;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: #000000;
+    color: #ffffff;
+    text-align: center;
+    line-height: 44px;
+}
+
+.social a:hover {
+    background: #ffffff;
+    color: #2c4a8df2;
+}
+
+.copy {
+    clear: both;
+    font-size: 13px;
+    text-align: center;
+    color: #585858;
+    margin: 0;
+    padding-bottom: 15px;
+}
